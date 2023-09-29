@@ -5,7 +5,7 @@ import { D2Api } from "../../../types/d2-api";
 import App from "./App";
 import { CompositionRoot, getWebappCompositionRoot } from "../../../CompositionRoot";
 
-export function Dhis2App(_props: {}) {
+export function Dhis2App(_props: { api: D2Api }) {
     const [compositionRootRes, setCompositionRootRes] = React.useState<CompositionRootResult>({
         type: "loading",
     });
@@ -34,7 +34,7 @@ export function Dhis2App(_props: {}) {
 
             return (
                 <Provider config={config}>
-                    <App compositionRoot={compositionRoot} />
+                    <App compositionRoot={compositionRoot} api={_props.api} />
                 </Provider>
             );
         }
@@ -69,7 +69,7 @@ async function getData(): Promise<CompositionRootResult> {
 const env = import.meta.env;
 const isDev = env.DEV;
 
-async function getBaseUrl() {
+export async function getBaseUrl() {
     if (isDev) {
         return "/dhis2"; // See src/setupProxy.js
     } else {
