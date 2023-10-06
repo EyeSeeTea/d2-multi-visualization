@@ -5,13 +5,28 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2023-09-18T13:40:05.079Z\n"
-"PO-Revision-Date: 2023-09-18T13:40:05.079Z\n"
+"POT-Creation-Date: 2023-10-03T00:25:40.804Z\n"
+"PO-Revision-Date: 2023-10-03T00:25:40.804Z\n"
 
 msgid "Add"
 msgstr ""
 
 msgid "List"
+msgstr ""
+
+msgid "Select Dashboard"
+msgstr ""
+
+msgid "Select Visualizations"
+msgstr ""
+
+msgid "Graphs per row"
+msgstr ""
+
+msgid "Generate"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 msgid "Back"
@@ -20,8 +35,17 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
+msgid "Loading Visualizations..."
+msgstr ""
+
+msgid "Generating Visualizations..."
+msgstr ""
+
 msgid "Hello {{name}}"
 msgstr ""
 
 msgid "Detail page"
+msgstr ""
+
+msgid "Select Organisation Unit"
 msgstr ""

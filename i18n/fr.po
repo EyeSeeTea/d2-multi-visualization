@@ -1,0 +1,35 @@
+msgid "Add"
+msgstr ""
+
+msgid "List"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Hello {{name}}"
+msgstr ""
+
+msgid "Detail page"
+msgstr ""
+
+msgid "Select Organisation Unit"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Select Dashboard"
+msgstr ""
+
+msgid "Select Visualizations"
+msgstr "Graphiques"
+
+msgid "Graphs per row"
+msgstr "Graphiques par ligne"
+
+msgid "Generate"
+msgstr "Générer"
