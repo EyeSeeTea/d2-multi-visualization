@@ -2,8 +2,7 @@ import React, { useContext } from "react";
 import { CompositionRoot } from "../../CompositionRoot";
 import { User } from "../../domain/entities/User";
 import { D2Api } from "../../types/d2-api";
-// @ts-ignore
-import i18n from "../../locales";
+import i18n from "../../utils/i18n";
 
 export interface AppContextState {
     api: D2Api;
